@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:background="@color/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.example.franzstore.widget.Search_bar
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/bg_form_pencarian"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <ImageView
+                android:src="@drawable/search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:autofillHints="name"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="Cari Produk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:src="@drawable/camera"
+                android:layout_width="24dp"
+                android:layout_height="wrap_content"/>
+        </com.example.franzstore.widget.Search_bar>
+    </androidx.appcompat.widget.Toolbar>
+
+    <include layout="@layout/kategori" />
+    <include layout="@layout/hot_sale" />
+    <include layout="@layout/rekomendasi" />
+    <include layout="@layout/fiturproduk" />
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="18dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:text="Kategori"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="Lihat Semua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.example.franzstore.widget.Wrap_Element
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.example.franzstore.widget.Chart_Element
+                android:backgroundTint="#8878E5"
+                android:padding="10dp"
+                android:gravity="center"
+                android:background="@drawable/bg_chart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/pakaian"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    app:tint="@color/white" />
+
+            </com.example.franzstore.widget.Chart_Element>
+            <TextView
+                android:layout_margin="5dp"
+                android:textSize="12dp"
+                android:textAlignment="center"
+                android:text="Pakaian"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </com.example.franzstore.widget.Wrap_Element>
+        <RelativeLayout
+            android:layout_width="15dp"
+            android:layout_height="match_parent"/>
+        <com.example.franzstore.widget.Wrap_Element
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.example.franzstore.widget.Chart_Element
+                android:backgroundTint="#E886C5"
+                android:padding="10dp"
+                android:gravity="center"
+                android:background="@drawable/bg_chart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/kursi"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    app:tint="@color/white" />
+
+            </com.example.franzstore.widget.Chart_Element>
+            <TextView
+                android:layout_margin="5dp"
+                android:textSize="12dp"
+                android:textAlignment="center"
+                android:text="Furniture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </com.example.franzstore.widget.Wrap_Element>
+        <RelativeLayout
+            android:layout_width="15dp"
+            android:layout_height="match_parent"/>
+        <com.example.franzstore.widget.Wrap_Element
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.example.franzstore.widget.Chart_Element
+                android:backgroundTint="#9DE2EC"
+                android:padding="10dp"
+                android:gravity="center"
+                android:background="@drawable/bg_chart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/pensil"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    app:tint="@color/white" />
+
+            </com.example.franzstore.widget.Chart_Element>
+            <TextView
+                android:layout_margin="5dp"
+                android:textSize="12dp"
+                android:textAlignment="center"
+                android:text="Alat Tulis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </com.example.franzstore.widget.Wrap_Element>
+        <RelativeLayout
+            android:layout_width="15dp"
+            android:layout_height="match_parent"/>
+        <com.example.franzstore.widget.Wrap_Element
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.example.franzstore.widget.Chart_Element
+                android:backgroundTint="#907CB7"
+                android:padding="10dp"
+                android:gravity="center"
+                android:background="@drawable/bg_chart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/diamond"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    app:tint="@color/white" />
+
+            </com.example.franzstore.widget.Chart_Element>
+            <TextView
+                android:layout_margin="5dp"
+                android:textSize="12dp"
+                android:textAlignment="center"
+                android:text="Perhiasan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </com.example.franzstore.widget.Wrap_Element>
+
+
+    </LinearLayout>
+
+</LinearLayout>
